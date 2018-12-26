@@ -14,13 +14,13 @@ public class inflatorsActivity extends AppCompatActivity {
         setContentView(R.layout.music_play_list);
 
         ArrayList<Song> hits = new ArrayList<Song>();
-        hits.add(new Song("Dance This Way", "Jack Rugby"));
-        hits.add(new Song("Great Balls of Hearts", "Jack Rugby"));
-        hits.add(new Song("Three", "Smiths"));
-        hits.add(new Song("Truly Madly Beating", "Leon Strife"));
-        hits.add(new Song("Kirstin Eat My Beating Heart", "Jack Rugby"));
+        hits.add(new Song("Dance This Way", "Jack Rugby", R.drawable.inflatorart));
+        hits.add(new Song("Great Balls of Hearts", "Jack Rugby", R.drawable.inflatorart));
+        hits.add(new Song("Three", "Smiths", R.drawable.inflatorart));
+        hits.add(new Song("Truly Madly Beating", "Leon Strife", R.drawable.inflatorart));
+        hits.add(new Song("Kirstin Eat My Beating Heart", "Jack Rugby", R.drawable.inflatorart));
         SongAdapter adapter = new SongAdapter(this, hits, 0);
-        ListView listView = (ListView) findViewById(R.id.track_list);
+        ListView listView = findViewById(R.id.track_list);
         listView.setAdapter(adapter);
     }
 }
