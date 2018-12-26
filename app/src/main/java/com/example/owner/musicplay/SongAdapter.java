@@ -47,6 +47,9 @@ public class SongAdapter extends ArrayAdapter<Song> {
                 //gets the album art to display to screen
                 ImageView.setImageResource(currentSong.getImageResourceId());
             }
+            else {
+                ImageView.setVisibility(View.GONE);
+            }
             return listView;
         }
     }
