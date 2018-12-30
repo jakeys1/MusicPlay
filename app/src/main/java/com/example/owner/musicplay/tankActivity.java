@@ -14,14 +14,12 @@ public class tankActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.music_play_list);
         ArrayList<Song> hits = new ArrayList<Song>();
-/*
-        hits.add(new Song("Dreams of My Wife", "T.A.N.K", R.drawable.tankart));
-        hits.add(new Song("When Fresh Dreams Cry", "Victoria Yoko", R.drawable.tankart));
-        hits.add(new Song("Loving, Loving, Loving!", "T.A.N.K", R.drawable.tankart));
-        hits.add(new Song("Night Boogie", "T.A.N.K", R.drawable.tankart));
-        hits.add(new Song("Born Fresh", "Victoria Yoko",R.drawable.tankart));
-        hits.add(new Song("Have You Met Love?", "T.A.N.K", R.drawable.tankart));
-*/
+        hits.add(new Song(R.string.dream, R.string.tank, R.drawable.tankart));
+        hits.add(new Song(R.string.cry, R.string.yoko, R.drawable.tankart));
+        hits.add(new Song(R.string.loving, R.string.tank, R.drawable.tankart));
+        hits.add(new Song(R.string.boogie, R.string.tank, R.drawable.tankart));
+        hits.add(new Song(R.string.fresh, R.string.yoko,R.drawable.tankart));
+        hits.add(new Song(R.string.luv, R.string.tank, R.drawable.tankart));
 
         SongAdapter adapter = new SongAdapter(this, hits, 0);
         ListView listView = findViewById(R.id.track_list);
