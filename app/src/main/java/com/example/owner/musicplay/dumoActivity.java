@@ -15,14 +15,13 @@ public class  dumoActivity extends AppCompatActivity {
         setContentView(R.layout.music_play_list);
 
         ArrayList<Song> hits = new ArrayList<Song>();
-        hits.add(new Song("Good Money", "Dumo", R.drawable.dumoart));
-        hits.add(new Song("Hotel Detroit", "Dumo", R.drawable.dumoart));
-        hits.add(new Song("Stairway to Money feat. T.A.N.K", "T.A.N.K", R.drawable.dumoart));
-        hits.add(new Song("My Name is Dumo", "Dumo", R.drawable.dumoart));
-        hits.add(new Song("Money Deep, Cars High", "Anthony Lang", R.drawable.dumoart));
-
+        hits.add(new Song(R.string.Dumo, R.string.Dumo, R.drawable.dumoart));
+        hits.add(new Song(R.string.hotel_detroit, R.string.Dumo, R.drawable.dumoart));
+        hits.add(new Song(R.string.stairway, "T.A.N.K", R.drawable.dumoart));
+        hits.add(new Song(R.string.my_name, "Dumo", R.drawable.dumoart));
+        hits.add(new Song(R.string.good_money, "Anthony Lang", R.drawable.dumoart));
         SongAdapter adapter = new SongAdapter(this, hits, 0);
-        ListView listView = (ListView) findViewById(R.id.track_list);
+        ListView listView = findViewById(R.id.track_list);
         listView.setAdapter(adapter);
     }
 }

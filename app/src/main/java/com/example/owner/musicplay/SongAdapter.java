@@ -37,7 +37,7 @@ public class SongAdapter extends ArrayAdapter<Song> {
             //gets the song composer and set it to the text of this textView
             composerTextView.setText(currentSong.getSongComposer());
 
-            //find the textview in list_item with id miwok_text_view
+            //find the textview in list_item with id song_text_view
             TextView songTextView = listView.findViewById(R.id.songTitle_Text);
             //gets the song title and set it to the text of this textView
             songTextView.setText(currentSong.getSongTitle());

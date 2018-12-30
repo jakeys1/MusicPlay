@@ -14,6 +14,7 @@ public class nardActivity extends AppCompatActivity {
         setContentView(R.layout.music_play_list);
 
         ArrayList<Song> hits = new ArrayList<Song>();
+/*
         hits.add(new Song("Nard Goin' to do it", "Anthony Lang", R.drawable.nardart));
         hits.add(new Song("Smoothe Rhapsody", "Lucky Bucks", R.drawable.nardart));
         hits.add(new Song("Can't Take My Shoes Off You", "Lil' Nard", R.drawable.nardart));
@@ -24,6 +25,7 @@ public class nardActivity extends AppCompatActivity {
         hits.add(new Song("Born Smoothe", "Lil ' Frank Litty", R.drawable.nardart));
         hits.add(new Song("Early Morning Clubbing", "Victoria Yoko", R.drawable.nardart));
         hits.add(new Song("Here Without A Friend", "Lil' Nard", R.drawable.nardart));
+*/
 
         SongAdapter adapter = new SongAdapter(this, hits, 0);
         ListView listView = findViewById(R.id.track_list);
