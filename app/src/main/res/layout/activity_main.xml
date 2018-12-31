@@ -4,32 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
+    android:padding="0dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingVertical="5dp"
+        android:background="@color/nard_color"
+        android:textColor="@android:color/white"
+        android:padding="15dp"
         android:id="@+id/nardMusic"
         android:text="Lil Nard"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingVertical="5dp"
+        android:background="@color/tank_color"
+        android:textColor="@android:color/white"
+        android:padding="15dp"
         android:id="@+id/tankMusic"
         android:text="T.A.N.K"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingVertical="5dp"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:background="@color/dumo_color"
         android:id="@+id/dumoMusic"
         android:text="Dumo Squad"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingVertical="5dp"
+        android:background="@color/inflat_color"
+        android:textColor="@android:color/white"
+        android:padding="15dp"
         android:id="@+id/inflatorMusic"
         android:text="The Inflators"/>
 

@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--T.A.N.K Primary color-->
+    <color name="tank_color">#490769</color>
+    <!--Nard Primary color-->
+    <color name="nard_color">#0917E2</color>
+    <!--Inflators Primary color-->
+    <color name="inflat_color">#F20909</color>
+    <!--Nard Primary color-->
+    <color name="dumo_color">#23AE0D</color>
+    <!--T.A.N.K song color-->
+    <color name="t_song_color">#683283</color>
+    <!--Nard song color-->
+    <color name="n_song_color">#3844EB</color>
+    <!--Dumo song color-->
+    <color name="d_song_color">#4DB53D</color>
+    <!--The Inflators song color-->
+    <color name="in_song_color">#CE3434</color>
+
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>

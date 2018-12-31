@@ -19,6 +19,7 @@ public class inflatorsActivity extends AppCompatActivity {
         hits.add(new Song(R.string.three, R.string.smiths, R.drawable.inflatorart));
         hits.add(new Song(R.string.truly, R.string.leon, R.drawable.inflatorart));
         hits.add(new Song(R.string.eat, R.string.jack, R.drawable.inflatorart));
+
         SongAdapter adapter = new SongAdapter(this, hits, 0);
         ListView listView = findViewById(R.id.track_list);
         listView.setAdapter(adapter);

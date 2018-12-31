@@ -24,6 +24,7 @@ public class nardActivity extends AppCompatActivity {
         hits.add(new Song(R.string.born_smoothe, R.string.frank, R.drawable.nardart));
         hits.add(new Song(R.string.clubbing, R.string.yoko, R.drawable.nardart));
         hits.add(new Song(R.string.without, R.string.lil_nard, R.drawable.nardart));
+
         SongAdapter adapter = new SongAdapter(this, hits, 0);
         ListView listView = findViewById(R.id.track_list);
         listView.setAdapter(adapter);

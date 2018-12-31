@@ -15,9 +15,9 @@ public class SongAdapter extends ArrayAdapter<Song> {
         //Resource id for background color of list
         private int mColorResourceId;
 
-        public SongAdapter(Activity context, ArrayList<Song> Song, int colorResourceId) {
+    public SongAdapter(Activity context, ArrayList<Song> Song, int i) {
             super(context, 0, Song);
-            mColorResourceId = colorResourceId;
+            //mColorResourceId = colorResourceId;
         }
 
         @Override
@@ -50,6 +50,12 @@ public class SongAdapter extends ArrayAdapter<Song> {
             else {
                 ImageView.setVisibility(View.GONE);
             }
+/*
+            View textContainer = listView.findViewById(R.id.text_container);
+
+            int color = ContextCompat.getColor(getContext(), mColorResourceId);
+
+            textContainer.setBackgroundColor(color);*/
             return listView;
         }
     }

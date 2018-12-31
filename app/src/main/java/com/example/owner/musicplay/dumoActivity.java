@@ -20,6 +20,7 @@ public class  dumoActivity extends AppCompatActivity {
         hits.add(new Song(R.string.stairway, R.string.tank, R.drawable.dumoart));
         hits.add(new Song(R.string.my_name, R.string.dumo, R.drawable.dumoart));
         hits.add(new Song(R.string.good_money, R.string.ant_l, R.drawable.dumoart));
+
         SongAdapter adapter = new SongAdapter(this, hits, 0);
         ListView listView = findViewById(R.id.track_list);
         listView.setAdapter(adapter);
